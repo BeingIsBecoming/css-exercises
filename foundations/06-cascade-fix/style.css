@@ -1,42 +1,48 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial,Verdana,Helvetica;
+  background-color: black;
+  line-height: normal;
 }
 
 .para,
 .small-para {
-  color: hsl(0, 0%, 0%);
+  color: hsl(0, 0%, 100%);
   font-weight: 800;
+  font-style: oblique;
+  line-height: .25;}
+
+.para {
+  font-size: 32px;
 }
 
 .small-para {
   font-size: 14px;
   font-weight: 800;
-}
-
-.para {
-  font-size: 22px;
-}
-
-.confirm {
-  background: green;
-  color: white;
-  font-weight: bold;
 } 
 
 .button {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  color: rgb(255, 0, 0);
+  font-weight: bold;
+  text-align: center;
+} 
+
+.button {
+  color: rgb(255, 255, 255);
   font-size: 20px;
+  text-align: center;
 }
 
-.child {
-  color: rgb(0, 0, 0);
+.text.child {
+  color: rgb(242, 234, 234);
   font-weight: 800;
   font-size: 14px;
 }
 
 div.text {
-  color: rgb(0, 0, 0);
+  color: rgb(243, 16, 16);
   font-size: 22px;
-  font-weight: 100;
+  font-weight: 600;
+  line-height: 2;
+  font-style: oblique;
 }
