@@ -5,17 +5,45 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  cursor: url('./cross.png'),auto;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+p {
+  background-color: black;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 8px;
+}
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+  margin: 0;
+  padding: 0; 
 }
 
 img {
-  width: 600px;
+  width: 400px;
 }
 
 button {
+  cursor: pointer;
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
-  background: #eee;
+  background: #000000;
+  color: #ffffff;
 }
 
 input {
@@ -24,3 +52,18 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+.content {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(17, 17, 17);
+}
+
